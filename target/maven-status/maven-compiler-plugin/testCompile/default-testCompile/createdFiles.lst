@@ -1,0 +1,17 @@
+testcases\RegistrationTest.class
+versiontest\SecondTest_c_before_after.class
+versiontest\ThirdTestCase.class
+testcases\Logintest.class
+testcases\PdtAddCarttest.class
+versiontest\SecondTest_a.class
+pages\Checkout.class
+pages\PdtAddCart.class
+versiontest\SecondTest_d_xml_reports.class
+versiontest\SecondTest_b_setting_priority.class
+lib\RunReports.class
+versiontest\FirstTest.class
+pages\Homepage.class
+testcases\CheckoutTest.class
+pages\Registration.class
+lib\SelectBrowser.class
+testcases\HomepageTest.class
