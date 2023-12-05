@@ -2,35 +2,35 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-05T01:30:14 CST" name="Suite" finished-at="2023-12-05T01:30:47 CST" duration-ms="33417">
+  <suite started-at="2023-12-05T02:31:27 CST" name="Suite" finished-at="2023-12-05T02:31:53 CST" duration-ms="26660">
     <groups>
     </groups>
-    <test started-at="2023-12-05T01:30:14 CST" name="Test" finished-at="2023-12-05T01:30:47 CST" duration-ms="33417">
+    <test started-at="2023-12-05T02:31:27 CST" name="Test" finished-at="2023-12-05T02:31:53 CST" duration-ms="26660">
       <class name="testcases.Logintest">
-        <test-method is-config="true" signature="setUpReport()[pri:0, instance:testcases.Logintest@64cd705f]" started-at="2023-12-05T01:30:13 CST" name="setUpReport" finished-at="2023-12-05T01:30:14 CST" duration-ms="298" status="PASS">
+        <test-method is-config="true" signature="setUpReport()[pri:0, instance:testcases.Logintest@1700915]" started-at="2023-12-05T02:31:26 CST" name="setUpReport" finished-at="2023-12-05T02:31:27 CST" duration-ms="269" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpReport -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcases.Logintest@64cd705f]" started-at="2023-12-05T01:30:14 CST" name="launchBrowser" finished-at="2023-12-05T01:30:32 CST" duration-ms="17984" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcases.Logintest@1700915]" started-at="2023-12-05T02:31:27 CST" name="launchBrowser" finished-at="2023-12-05T02:31:43 CST" duration-ms="16696" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="Loginintoaccount()[pri:1, instance:testcases.Logintest@64cd705f]" started-at="2023-12-05T01:30:32 CST" name="Loginintoaccount" finished-at="2023-12-05T01:30:47 CST" duration-ms="15353" status="PASS">
+        <test-method signature="Loginintoaccount()[pri:1, instance:testcases.Logintest@1700915]" started-at="2023-12-05T02:31:43 CST" name="Loginintoaccount" finished-at="2023-12-05T02:31:53 CST" duration-ms="9866" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Loginintoaccount -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.Logintest@64cd705f]" started-at="2023-12-05T01:30:47 CST" name="getResult" finished-at="2023-12-05T01:30:47 CST" duration-ms="14" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.Logintest@1700915]" started-at="2023-12-05T02:31:53 CST" name="getResult" finished-at="2023-12-05T02:31:53 CST" duration-ms="8" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Loginintoaccount status=SUCCESS method=Logintest.Loginintoaccount()[pri:1, instance:testcases.Logintest@64cd705f] output={null}]]]>
+                <![CDATA[[TestResult name=Loginintoaccount status=SUCCESS method=Logintest.Loginintoaccount()[pri:1, instance:testcases.Logintest@1700915] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.Logintest@64cd705f]" started-at="2023-12-05T01:30:47 CST" name="tearDown" finished-at="2023-12-05T01:30:48 CST" duration-ms="523" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.Logintest@1700915]" started-at="2023-12-05T02:31:53 CST" name="tearDown" finished-at="2023-12-05T02:31:54 CST" duration-ms="369" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
