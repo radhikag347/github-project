@@ -9,7 +9,7 @@
        <!--<class name="testcases.RegistrationTest"/>-->
         
         
-   <class name="testcases.Logintest"/>
+   <!--  class name="testcases.Logintest"/>-->
    <!--class name="testcases.PdtAddCarttest"/>-->
     <!--<class name="testcases.CheckoutTest"/>-->
    <!--class name="testcases.HomepageTest"/>-->

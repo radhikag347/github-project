@@ -47,6 +47,7 @@ public class SelectBrowser {
          
        		driver=new ChromeDriver(options);
        		
+       		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
        	   // driver.get("https://demo.perscholastraining.com/my-account-2/");
        	 
 
@@ -68,6 +69,7 @@ public class SelectBrowser {
           }
         
              driver.manage().window().maximize();
+             Thread.sleep(5000);
              return driver;
              
     }

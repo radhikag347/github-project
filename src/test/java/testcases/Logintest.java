@@ -61,7 +61,7 @@ import java.time.Duration;
 	        driver = SelectBrowser.StartBrowser("Chrome");
 	        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	        Thread.sleep(5000);
-	        driver.get("https://demo.perscholastraining.com/my-account-2/");
+	        driver.get("https://demo.perscholastraining.com/");
 	    }
 
 	
@@ -74,20 +74,20 @@ import java.time.Duration;
 	        //test.addScreenCaptureFromPath("createAccountValidEmail.png");
 	    	test = extent.createTest("verify_Loginaccount", "Test Passed");
 	        reglogin = new Registration(driver);
-	     /* WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(100, 1));
+	      WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20, 1));
 	  		WebElement elementAbout = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='My Account']")));
-	  		Thread.sleep(5000);
+	  		//Thread.sleep(5000);
 	        reglogin.ClickOnMyAccountButn();
 	        //ecomLogInPage = new EcomLogInPage(driver);
 	       // Thread.sleep(3000);
 	       // driver.findElement(By.id("reg_password")).clear();
-	       // reglogin.EnterUserNameReg("Admin");*/
+	       // reglogin.EnterUserNameReg("Admin");
 	        reglogin.entLoginusrnm("Stu4@gmail.com");
 	        System.out.println("Entered emailid");
 	        reglogin.entLoginusrpwd("Psssw0rd@#$123452345sfsff");
 	        System.out.println("Entered password");
 
-	        RunReports.takeScreenShot(driver, System.getProperty("user.dir") + "/test-output/TC0004A-image1.jpg");
+	      //  RunReports.takeScreenShot(driver, System.getProperty("user.dir") + "/test-output/TC0004A-image1.jpg");
 	        Actions action = new Actions(driver);
 	 		action.sendKeys(Keys.PAGE_DOWN).build().perform();
 	 		try {
@@ -98,7 +98,7 @@ import java.time.Duration;
 	 			System.out.println("login not clickable");
 	 		}
 	  		//reglogin.ClickOnLoginBtn();
-	        RunReports.takeScreenShot(driver, System.getProperty("user.dir") + "/test-output/TC0004A-image2.jpg");
+	      //  RunReports.takeScreenShot(driver, System.getProperty("user.dir") + "/test-output/TC0004A-image2.jpg");
 	        Thread.sleep(3000);
 	        //System.out.println(reglogin.RegisterPageMess());
 	        String expected = "Hello testcase0004 (not testcase0004? Log out)" ;

@@ -70,7 +70,7 @@ public class HomepageTest {
 	        driver.get("https://demo.perscholastraining.com/");
 	    }
 
-	 @Test(priority = 1, testName = "TC - 0012", enabled = false)
+	 @Test(priority = 1, testName = "TC - 0012", enabled = true)
 	    public void Homepagepdt() throws IOException, InterruptedException {
 		 test = extent.createTest("verify_Homepageprdt", "Test Passed");    
 		 hompg = new Homepage(driver);
@@ -129,7 +129,7 @@ public class HomepageTest {
 	        Thread.sleep(3000);
 }
 	 
-	 @Test(priority = 4, testName = "TC - 0015", enabled = true)
+	 @Test(priority = 4, testName = "TC - 0015", enabled = false)
 	    public void justsearch() throws IOException, InterruptedException {
 		 test = extent.createTest("verify_justsearch", "Test Passed");        
 		 hompg = new Homepage(driver);

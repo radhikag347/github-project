@@ -3,6 +3,7 @@ versiontest\SecondTest_c_before_after.class
 versiontest\ThirdTestCase.class
 testcases\Logintest.class
 testcases\PdtAddCarttest.class
+lib\TestBase.class
 versiontest\SecondTest_a.class
 pages\Checkout.class
 pages\PdtAddCart.class

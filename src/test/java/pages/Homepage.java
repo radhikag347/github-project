@@ -21,6 +21,7 @@ public class Homepage {
 	WebDriver driver;
     
     @FindBy (linkText = "Home")
+	//@FindBy(xpath = ("//*[@id=\"menu-item-5472\"]/a"))
     WebElement home;
     
     @FindBy (xpath = ("//div[@id='content']/div/nav/a"))
